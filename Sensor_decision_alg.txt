@@ -1,0 +1,16 @@
+This algorythm depicts the work of decision making mechanism for robot based on
+3 ultra-range sensors allocated at diferent angel in front panel of robot to cover obstacles
+in front of robot, from left and right.
+
+To test the algorythm just run it in python idle;
+enter distance in cm.
+
+Algorythm will request sensors (in test case you should enter data instead of sensor)
+to get distance and verify it couple of times
+depending on how close obstacle is.
+
+There are 3 checking algorythms - strong, light and medium.
+
+After algorythm "ensures" the distance is correct - it will make decision for robot
+to move in right direction, avoiding obstacle.
+

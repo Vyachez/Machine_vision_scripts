@@ -1,0 +1,26 @@
+Algorythm allows to build the plot of 3 sensor
+vision depending on angles of sensors locations
+relatively to eahc other:
+
+VAR - means variable to change depending on your conditions
+
+# VAR setting quantity of dots for sampling (sensor range in cm)
+dot_quant = 150
+
+# FIXED distance of side sensors relatively to central
+# (this figures static due to pecularity of sensor locations for this example)
+Cpoint = 0
+Rpoint = 7.9
+Lpoint = Rpoint * -1
+r_side = 11.7
+l_side = 10
+
+# VAR - TUNABLE distance which side sensors should cross upfront
+r_dist = 32
+l_dist = 32
+
+# VAR robot width/passing corridor
+width_corr = 50
+
+# VAR setting distance which side sensor should cover from center (wider that sensive corridor)
+ss_vis = 70
